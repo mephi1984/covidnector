@@ -20,6 +20,12 @@ class Main extends Component {
           Welcome to COVIDnector!
         </h1>
 		<p>
+          Connect for life!
+        </p>
+		<p>
+		See frequently asked questions related to the <a href="https://www.redcrossblood.org/faq.html#donating-blood-covid-19-convalescent-plasma">Convalescent Plasma Donation Program</a>
+		</p>
+		<p>
           Please let us know who you are
         </p>
 		 <div className="Buttons">
