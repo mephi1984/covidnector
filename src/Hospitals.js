@@ -18,10 +18,10 @@ class Hospitals extends Component {
 		  <div className="row justify-content-center">
 			<div className="col-8 col-xs-12">
 				<h1>
-			  List of hospitals
+			  List of blood donation centers
 			</h1>
 			<p>
-				Here is the list of nearby hospitals you can apply to.
+				Here is the list of nearby blood donation centers you can apply to.
 			</p>
 			</div>
 			<div className="col-12">

@@ -25,7 +25,7 @@ class DonorSuccess extends Component {
   
   render() {
 	  if (this.state.navigate) {
-          return <Redirect to="/hospitals" />
+          return <Redirect to="/myAccount" />
         }
 
 		return (<div className="App">

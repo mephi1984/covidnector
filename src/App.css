@@ -49,3 +49,14 @@
 .DonorForm {
 	text-align: left;
 }
+
+.account-table
+{
+	text-align: left;
+}
+
+.account-table-verified
+{
+	color: #0bb90b;
+}
+

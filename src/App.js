@@ -4,7 +4,7 @@ import './App.css';
 import Main from './Main';
 import Donor from './Donor';
 import Hospitals from './Hospitals';
-
+import MyAccount from './MyAccount';
 
 import {
   BrowserRouter as Router,
@@ -25,6 +25,9 @@ function App() {
           </Route>
 		  <Route path="/hospitals">
             <Hospitals />
+          </Route>
+		  <Route path="/myAccount">
+            <MyAccount />
           </Route>
         </Switch>
   </Router>
