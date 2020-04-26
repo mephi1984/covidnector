@@ -18,7 +18,7 @@ class MyAccount extends Component {
 	  return (<div className="App">
 		
 		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-		  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+		  <Navbar.Brand href="#home">COVIDnector</Navbar.Brand>
 		  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 		  <Navbar.Collapse id="responsive-navbar-nav">
 			<Nav className="mr-auto">
