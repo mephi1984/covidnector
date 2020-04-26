@@ -7,6 +7,10 @@ import './App.css';
 import DatePicker from "react-datepicker";
  
 import "react-datepicker/dist/react-datepicker.css";
+
+import DonorSuccessTimeout from './DonorSuccessTimeout';
+
+
  
 class Donor extends Component {
 	
@@ -31,8 +35,8 @@ class Donor extends Component {
     //event.preventDefault();
 	
 	//this.setState( {symthomsSelectionChecked: ! this.state.symthomsSelectionChecked});
-	console.log("-----");
-	console.log(event.currentTarget.value);
+	//console.log("-----");
+	//console.log(event.currentTarget.value);
 	
 	this.setState( {sympthomsValue : event.currentTarget.value});
 
@@ -56,17 +60,7 @@ class Donor extends Component {
   }
   
   renderSuccess() {
-	  return (<div className="App">
-		<div className="container">
-		  <div className="row justify-content-center">
-			<div className="col-8 col-xs-12">
-				<h1>
-			  Thank you for your submission!
-			</h1>
-		  </div>
-		</div>
-	  </div>
-	</div>);
+	  return (<DonorSuccessTimeout />);
   }
   
   renderSympthomsSelectedForm() {
@@ -133,14 +127,14 @@ selected={this.state.sympthomsDate}
 			  <div className="row justify-content-center form-group App-formpic-container">
 			  <div className="col-6">
 			  <img src={formpic1} className="App-formpic" alt="pic1" />
-			  <p>
-			  You are at least 17 years old and weigh 55 kg. Additional weight requirements apply for donors age 18 or younger.
+			  <p className="App-formpic-text">
+			  You are at least 17 years old and weigh 55 kg. Additional restrictions apply if you are 18 years old or younger.
 			  </p>
 			  </div>
 			  <div className="col-6">
 			  <img src={formpic2} className="App-formpic" alt="pic2" />
-			  <p>
-			  In good health. You generally feel well, even if you're being treated for a chronic condition.
+			  <p className="App-formpic-text">
+			  You are in good health. You generally feel well even if you're being treated for a chronic condition.
 			  </p>
 			  </div>
 			  </div>

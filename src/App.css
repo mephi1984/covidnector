@@ -25,6 +25,12 @@
 .App-formpic-container {
 	text-align:center;
 }
+.App-formpic-text {
+	margin-top:20px;
+	
+    font-size: 70%;
+    color: darkgrey;
+}
 
 .App-formpic {
 	max-width:100%;
