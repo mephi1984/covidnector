@@ -37,20 +37,20 @@ class Hospitals extends Component {
 			  <tbody>
 				<tr>
 				  <th scope="row">1</th>
-				  <td>NYC Health + Hospitals / Bellevue</td>
-				  <td>462 1st Avenue, New York, NY 10016</td>
+				  <td>PMI Kota Jakarta Barat</td>
+				  <td>Jl. Perdana No.12, RT.1/RW.1, Wijaya Kusuma, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460</td>
 				  <td><button type="button" className="btn btn-success btn-lg">Apply</button></td>
 				</tr>
 				<tr>
 				  <th scope="row">2</th>
-				  <td>Lenox Hill Hospital</td>
-				  <td>100 E 77th St, New York, NY 10075</td>
+				  <td>Unit Donor Darah Senayan City</td>
+				  <td>RT.1/RW.3, Gelora, Tanah Abang, Central Jakarta City, Jakarta 10270</td>
 				  <td><button type="button" className="btn btn-success btn-lg">Apply</button></td>
 				</tr>
 				<tr>
 				  <th scope="row">3</th>
-				  <td>Tisch Hospital</td>
-				  <td>550 1st Avenue, New York, NY 10016</td>
+				  <td>PMI Kota Jakarta Utara</td>
+				  <td>Jl. Plumpang Semper No.54, RT.1/RW.4, Tugu Sel., Kec. Koja, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14260</td>
 				  <td>No slots available</td>
 				</tr>
 			  </tbody>
